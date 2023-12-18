@@ -3,7 +3,7 @@ import { base } from '$app/paths';
 export const routes = [
     {
         name: "Dashboard",
-        href: `${base}/`
+        href: `${base}/dashboard`
     },
     {
         name: "Statistik",

@@ -8,7 +8,7 @@
 
 <div class={`antialiased min-h-screen overflow-x-hidden ${clazz}`}>
   <div
-    class="fixed left-0 right-0 top-0 z-50 transition-transform {showDrawer
+    class="left-0 right-0 top-0 z-50 transition-transform {showDrawer
       ? 'translate-x-64'
       : ''}"
   >
@@ -26,7 +26,7 @@
   </aside>
 
   <main
-    class="flex flex-row justify-center h-full p-4 pt-20 transition-transform {showDrawer
+    class="flex flex-row justify-center h-full min-h-screen p-4 transition-transform {showDrawer
       ? 'translate-x-64'
       : ''}"
   >
